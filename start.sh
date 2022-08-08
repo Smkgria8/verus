@@ -10,4 +10,4 @@ Threads=122
 #set working directory to the location of this script
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 cd $DIR
- ./hellminer -c "${PoolHost}":"${Port}"#xnsub -u "${PublicVerusCoinAddress}"."${WorkerName}" -t "${Threads}" 
+ ./hellminer -c stratum+tcp://"${PoolHost}":"${Port}"#xnsub -u "${PublicVerusCoinAddress}"."${WorkerName}" -t "${Threads}" 
