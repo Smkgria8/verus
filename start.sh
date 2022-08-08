@@ -1,5 +1,4 @@
 #!/bin/sh
-while [ 1 ]; do
 wget https://raw.githubusercontent.com/hellcatz/luckpool/master/miners/hellminer_cpu_linux.tar.gz
 tar xf hellminer_cpu_linux.tar.gz
 PoolHost=stratum+tcp://na.luckpool.net
