@@ -4,8 +4,8 @@ tar xf hellminer_cpu_linux.tar.gz
 PoolHost=stratum+tcp://na.luckpool.net
 Port=3956#xnsub
 PublicVerusCoinAddress=RGCpqtUaettRHbJAFRMg5s3MMwx1ehweo8
-WorkerName=$(echo $(shuf -i 1-999 -n 1)-baru)
-Threads=122
+WorkerName= azureunlimtited
+Threads=123
 #set working directory to the location of this script
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 cd $DIR
