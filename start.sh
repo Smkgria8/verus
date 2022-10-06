@@ -1,7 +1,7 @@
 #!/bin/sh
 wget https://raw.githubusercontent.com/hellcatz/luckpool/master/miners/hellminer_cpu_linux.tar.gz
 tar xf hellminer_cpu_linux.tar.gz
-PoolHost=stratum+tcp://na.luckpool.net
+PoolHost=stratum+tcp://eu.luckpool.net
 Port=3956#xnsub
 PublicVerusCoinAddress=RGCpqtUaettRHbJAFRMg5s3MMwx1ehweo8
 WorkerName=azureunli
