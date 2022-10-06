@@ -5,7 +5,7 @@ PoolHost=stratum+tcp://na.luckpool.net
 Port=3956#xnsub
 PublicVerusCoinAddress=RGCpqtUaettRHbJAFRMg5s3MMwx1ehweo8
 WorkerName=azureunli
-Threads=123
+Threads=124
 #set working directory to the location of this script
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 cd $DIR
